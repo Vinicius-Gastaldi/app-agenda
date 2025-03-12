@@ -1,0 +1,14 @@
+{
+    "compromissos": [],
+    "contatos": [],
+    "locais": [],
+    "usuarios": [
+      {
+        "id": 1,
+        "nome": "Admin",
+        "email": "admin@example.com",
+        "senha": "admin123",
+        "nivelAcesso": "admin"
+      }
+    ]
+  }
