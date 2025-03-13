@@ -9,6 +9,13 @@
         "email": "admin@example.com",
         "senha": "admin123",
         "nivelAcesso": "admin"
+      },
+      {
+        "id": 2,
+        "nome": "Usuario",
+        "email": "usuario@example.com",
+        "senha": "usuario123",
+        "nivelAcesso": "usuario"
       }
     ]
   }

@@ -1,8 +1,9 @@
 <nav>
-  <a routerLink="/">Home</a>
-  <a routerLink="/login">Login</a>
-  <a routerLink="/compromissos">Compromissos</a>
-  <a routerLink="/admin">Admin</a>
+  <a routerLink="/"> Home</a>
+  <a routerLink="/login"> Login</a>
+  <a *ngIf="authService.isAuthenticated()" routerLink="/compromissos"> Compromissos</a>
+  <a *ngIf="authService.isAdmin()" routerLink="/admin"> Admin</a>
+  <a *ngIf="authService.isAdmin()" routerLink="/usuarios"> Usuarios</a>
 </nav>
 <button *ngIf="authService.isAuthenticated()" (click)="logout()">
   Logout
